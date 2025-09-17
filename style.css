@@ -1,0 +1,95 @@
+/* Import a nice font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Basic styles for the entire page */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9; /* Light grey background */
+    color: #333; /* Dark grey text */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* A container to center our content */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Styling for the main header */
+.main-header {
+    background-color: #005f73; /* A nice teal color */
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.main-header p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Card style for each section */
+.card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.card h2 {
+    color: #005f73;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+/* Styling for the skills list to make it a bit more modern */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between items */
+}
+
+.skills-list li {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+}
+
+/* Style for the contact button */
+#contact-btn {
+    background-color: #ee6c4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#contact-btn:hover {
+    background-color: #d15a3c; /* Darker shade on hover */
+}
+
+/* Simple footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #666;
+}
