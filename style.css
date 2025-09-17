@@ -86,6 +86,18 @@ body {
     background-color: #d15a3c; /* Darker shade on hover */
 }
 
+/* NEW: Style for the contact links like LinkedIn */
+.contact-link {
+    color: #005f73;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+
 /* Simple footer styling */
 footer {
     text-align: center;
