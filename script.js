@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add a 'click' event listener to the button
     contactButton.addEventListener('click', function() {
         // When the button is clicked, reveal the email address
-        [cite_start]// Email from the resume document [cite: 2]
+        // This is the corrected line:
         emailDisplay.textContent = 'Email: williamsdwight3@gmail.com';
         
         // Optional: Hide the button after it's clicked
