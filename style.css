@@ -53,6 +53,17 @@ body {
     padding-bottom: 10px;
 }
 
+/* Style for the profile photo */
+.profile-photo {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  /* This is the magic that makes it a circle! */
+    object-fit: cover;   /* This prevents your photo from looking stretched */
+    margin: 0 auto 20px; /* This centers the image and adds space below it */
+    border: 4px solid #005f73; /* Optional: Adds a colored border that matches the header */
+}
+
 /* Styling for the skills list to make it a bit more modern */
 .skills-list {
     list-style: none;
@@ -85,18 +96,6 @@ body {
 #contact-btn:hover {
     background-color: #d15a3c; /* Darker shade on hover */
 }
-
-/* NEW: Style for the contact links like LinkedIn */
-.contact-link {
-    color: #005f73;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.contact-link:hover {
-    text-decoration: underline;
-}
-
 
 /* Simple footer styling */
 footer {
